@@ -4,12 +4,15 @@ export default {
   entry: {
     'monaco-editor': './src/editor.js',
   },
+  output: {
+    publicPath: "auto",
+   },
   // output: {
   //   publicPath: 'https://esm.sh/gh/lostb1t/monaco-yaml-prebuilt/dist',
   // },
-  externals: {
-    'react': 'React'
-  },
+  // externals: {
+  //   'react': 'React'
+  // },
   module: {
     rules: [
       {
