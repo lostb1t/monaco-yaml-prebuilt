@@ -1,4 +1,5 @@
 import MonacoWebpackPlugin from 'monaco-editor-webpack-plugin';
+import webpack from 'webpack';
 
 export default {
   entry: {
@@ -39,5 +40,8 @@ export default {
         },
       ],
     }),
+    new webpack.optimize.LimitChunkCountPlugin({
+      maxChunks: 1,
+    })
   ],
 };
