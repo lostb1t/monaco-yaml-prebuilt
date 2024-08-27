@@ -5,7 +5,7 @@ export default {
     'monaco-editor': './src/editor.js',
   },
   output: {
-    publicPath: '',
+    publicPath: 'https://esm.sh/gh/lostb1t/monaco-yaml-prebuilt/dist',
   },
   module: {
     rules: [
