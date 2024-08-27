@@ -2,7 +2,10 @@ import MonacoWebpackPlugin from 'monaco-editor-webpack-plugin';
 
 export default {
   entry: {
-    'monaco-editor': './src/editor.js'
+    'monaco-editor': './src/editor.js',
+  },
+  output: {
+    publicPath: '',
   },
   module: {
     rules: [
