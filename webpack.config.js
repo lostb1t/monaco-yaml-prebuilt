@@ -8,7 +8,7 @@ export default {
   //   publicPath: "auto",
   //  },
   output: {
-    publicPath: 'https://esm.sh/gh/lostb1t/monaco-yaml-prebuilt/dist',
+    publicPath: 'https://esm.sh/gh/lostb1t/monaco-yaml-prebuilt/dist/',
   },
   // externals: {
   //   'react': 'React'
